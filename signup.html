@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pharma - Sign Up</title>
+    <link rel="shortcut icon" type="images/clients/x-icon" href="images/pharmacy (3).png" />
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans+SC&family=Cairo&family=Merriweather&family=Poppins&family=Roboto&family=Staatliches&display=swap"
+        rel="stylesheet">
+    <!--bootstrap 4-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!--owlcarousel-->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <!--slick-->
+    <link rel="stylesheet" href="css/slick.css">
+    <!--wow-->
+    <link rel="stylesheet" href="css/animate.css">
+    <!--style-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <section class="register">
+        <div class="left" style="background-image: url(images/register.jpg);background-position: center;">
+            <div class="curtain"></div>
+        </div>
+        <div class="right py-3">
+            <form class="py-3" action="">
+                <h3>Create Account</h3>
+                <span>Please enter pharmacy information to continue</span>
+                <div class="mt-4 form-group">
+                    <div class="d-flex">
+                        <div style="width: 15%;">
+                            <label class="pt-1">Name</label>
+                        </div>
+                        <div class="d-flex ml-1" style="width: 85%;">
+                            <div class="w-50 mr-1">
+                                <input type="text" name="" class="form-control" placeholder="First">
+                            </div>
+                            <div class="w-50 ml-1">
+                                <input type="text" name="" class="form-control" placeholder="Last">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" class="form-control" placeholder="E-mail">
+                </div>
+                <div class="form-group">
+                    <input type="number" name="" class="form-control" placeholder="Phone Number">
+                </div>
+                <div class="d-flex">
+                    <div class="w-50 mr-1">
+                        <div class="form-group">
+                            <input type="number" name="" class="form-control" placeholder="Age">
+                        </div>
+                    </div>
+                    <div class="w-50 ml-1">
+                        <div class="form-group">
+                            <select class="form-control" name="">
+                                <option selected disabled>Gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div style="width: 15%;">
+                        <label class="pt-1">Address</label>
+                    </div>
+                    <div class="d-flex ml-1" style="width: 85%;">
+                        <div class="w-50 mr-1">
+                            <div class="form-group">
+                                <select class="form-control" name="">
+                                    <option selected disabled>City</option>
+                                    <option>cairo</option>
+                                    <option>alex</option>
+                                    <option>giza</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="w-50 ml-1">
+                            <div class="form-group">
+                                <select class="form-control" name="">
+                                    <option selected disabled>Area</option>
+                                    <option>dokki</option>
+                                    <option>maadi</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="w-50 mr-1">
+                        <div class="form-group">
+                            <input type="text" name="" class="form-control" placeholder="Street">
+                        </div>
+                    </div>
+                    <div class="w-50 ml-1">
+                        <div class="form-group">
+                            <input type="number" name="" class="form-control" placeholder="House">
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="w-50 mr-1">
+                        <div class="form-group">
+                            <input type="number" name="" class="form-control" placeholder="Floor">
+                        </div>
+                    </div>
+                    <div class="w-50 ml-1">
+                        <div class="form-group">
+                            <input type="number" name="" class="form-control" placeholder="Flat">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="submit" class="form-control text-center btn btn-warning" value="Create Account">
+                </div>
+                <p>Already have an account? <a href="login.html">Login</a></p>
+            </form>
+        </div>
+    </section>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
+<!--
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+    <script type="text/javascript">
+        // this function is triggered when geolocation has found coordinates
+        function geolocationReturnedCoordinates(coordinates) {
+            document.getElementById('log').innerHTML =
+                'lat: ' + coordinates.coords.latitude +
+                '<br>lng: ' + coordinates.coords.longitude +
+                '<br>accuracy: ' + coordinates.coords.accuracy;
+            // Here would be a good place to call Reverse geocoding, since you have the coordinates here.
+            GeoCode(new google.maps.LatLng(coordinates.coords.latitude, coordinates.coords.longitude));
+        }
+
+        // geocoder
+        geocoder = new google.maps.Geocoder();
+
+        function GeoCode(latlng) {
+            // This is making the Geocode request
+            geocoder.geocode({
+                'location': latlng
+            }, function (results, status) {
+                if (status == google.maps.GeocoderStatus.OK) {
+                    var address = (results[0].formatted_address);
+                    //This is placing the returned address in the 'Address' field on the HTML form  
+                    document.getElementById('Address').value = results[0].formatted_address;
+                }
+            });
+        }
+
+        function search_position_and_address() {
+            // we start the request, to ask the position of the client
+            // we will pass geolocationReturnedCoordinates as the success callback
+            navigator.geolocation.getCurrentPosition(geolocationReturnedCoordinates, null, null);
+        }
+    </script>
+</head>
+
+<body>
+    <input type="button" value="GO" onclick="search_position_and_address()"> Get position (coordinates) of the client.
+    -- Then look for the address
+    <div id="log"></div>
+    <input id="Address" placeholder="Address">
+</body>
+
+</html>
+-->

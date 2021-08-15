@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pharma - Products</title>
+    <link rel="shortcut icon" type="images/clients/x-icon" href="images/pharmacy (3).png" />
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans+SC&family=Cairo&family=Merriweather&family=Poppins&family=Roboto&family=Staatliches&display=swap"
+        rel="stylesheet">
+    <!--bootstrap 4-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!--owlcarousel-->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <!--slick-->
+    <link rel="stylesheet" href="css/slick.css">
+    <!--wow-->
+    <link rel="stylesheet" href="css/animate.css">
+    <!--style-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-white fixed-top shadow-sm" style="z-index: 9;">
+        <div class="container-fluid m-auto py-2" style="width: 90%;">
+            <a class="navbar-brand" href="index.html"><img src="images/pharmacy (3).png"> pharma</a>
+            <button class="navbar-toggler first-button" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent20" aria-controls="navbarSupportedContent20" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <div class="animated-icon1"><span></span><span></span><span></span></div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent20">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="marketplace.html">Marketplace</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pharmacies.html">Pharmacies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="alert.html">Alert</a>
+                    </li>
+                    <li class="nav-item down-list">
+                        <a class="nav-link" style="cursor: default;">Pages <i class="down fa fa-caret-down"></i></a>
+                        <div class="pages bg-white rounded-bottom shadow">
+                            <ul style="list-style: none;">
+                                <li><a href="profile.html">profile</a></li>
+                                <hr>
+                                <li><a href="cart.html">cart</a></li>
+                                <hr>
+                                <li><a href="checkout.html">checkout</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item right-list">
+                        <a class="nav-link" style="cursor: default;">Pages <i style="margin-left: 5px;"
+                                class="right fa fa-caret-right"></i></a>
+                        <div class="pages2 bg-white rounded shadow">
+                            <ul style="list-style: none;">
+                                <li><a href="profile.html">profile</a></li>
+                                <hr>
+                                <li><a href="alert.html">alert</a></li>
+                                <hr>
+                                <li><a href="checkout.html">checkout</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item cart d-flex">
+                        <a href="cart.html"><img style="width: 25px;" src="images/cart.png"><small class="qty"
+                                style="position: relative;left: 5px;">3</small></a>
+                    </li>
+
+                    <li class="nav-item registration1">
+                        <a href="login.html" style="font-family: 'Roboto', sans-serif;"
+                            class="regLogin d-flex align-items-center justify-content-center btn mr-1">Login</a>
+                        <a href="signup.html" style="font-family: 'Roboto', sans-serif;"
+                            class="d-flex align-items-center justify-content-center btn btn-warning ml-1">Signup</a>
+                    </li>
+                    <li class="nav-item registration2 my-1">
+                        <a href="login.html" class="regLogin" style="font-family: 'Roboto', sans-serif;"
+                            class="btn">Login</a>
+                    </li>
+                    <li class="nav-item registration2 mt-1">
+                        <a href="signup.html" style="font-family: 'Roboto', sans-serif;"
+                            class="btn btn-warning">Signup</a>
+                    </li>
+
+
+                    <!-- <li class="nav-item">
+                        <a class="nav-link">
+                            <div class="user-menu px-2 py-1" title="My Profile">
+                                <img class="rounded-circle border img-fluid" style="width: 1.65rem;"
+                                    src="images/clients/Me.jpg"><span class="ml-1">Khaled</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item mt-1">
+                        <a class="logout" title="Logout" style="cursor: pointer;"><i class="fas fa-sign-out-alt"></i></a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="up">
+        <a><i class="fas fa-angle-up"></i></a>
+    </div>
+
+    <div style="height: 75px;width: 100%;"></div>
+
+    <header class="p-0 w-100">
+        <div class="single-category" style="background-image: url(images/categories/General.jpg);">
+            <div class="curtain">
+                <strong class="text-white wow bounceInUp">Marketplace</strong>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-5 bg-light">
+        <div class="container-fluid" style="width: 95%;">
+            <div class="row">
+                <div class="side-bar col-xl-3 col-lg-4 col-sm-12 p-2">
+                    <div class="rounded-bottom bg-white shadow-sm">
+                        <strong class="rounded-top">Search</strong>
+                        <div class="search bg-white rounded p-2">
+                            <form class="d-flex" action="">
+                                <input type="text" class="mr-1 form-control" placeholder="Search For Medicine.">
+                                <button type="submit" class="btn btn-outline-warning ml-1" style="width: 65px;"><i
+                                        class="fa fa-search"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="rounded-bottom bg-white shadow-sm mt-4">
+                        <strong class="rounded-top">Categories</strong>
+                        <div class="category">
+                            <a href="">
+                                <h3>Baby care</h3>
+                            </a>
+                            <i class="fas fa-angle-down"></i>
+                            <div class="sub">
+                                <a href="">
+                                    <h4>Bambarce</h4>
+                                    <span>(200)</span>
+                                </a>
+                                <a href="">
+                                    <h4>Bambarce</h4>
+                                    <span>(100)</span>
+                                </a>
+                                <a href="">
+                                    <h4>Bambarce</h4>
+                                    <span>(50)</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="category">
+                            <a href="">
+                                <h3>Baby care</h3>
+                            </a>
+                            <i class="fas fa-angle-down"></i>
+                            <div class="sub">
+                                <a href="">
+                                    <h4>Bambarce</h4>
+                                    <span>(200)</span>
+                                </a>
+                                <a href="">
+                                    <h4>Bambarce</h4>
+                                    <span>(100)</span>
+                                </a>
+                                <a href="">
+                                    <h4>Bambarce</h4>
+                                    <span>(50)</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded-bottom bg-white shadow-sm mt-4">
+                        <strong class="rounded-top">Type</strong>
+                        <form action="" onChange="this.form.submit()">
+                            <div class="type">
+                                <div class="form-check ml-1">
+                                    <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input" value="">Tablets
+                                    </label>
+                                </div>
+                                <span>(20)</span>
+                            </div>
+                            <div class="type">
+                                <div class="form-check ml-1">
+                                    <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input" value="">Supp
+                                    </label>
+                                </div>
+                                <span>(2)</span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-xl-9 col-lg-8 col-sm-12 p-2">
+                    <div class="products container-fluid">
+                        <div class="row">
+                            <!--Filter-->
+                            <div class="col-12 mb-3">
+                                <div class="filter bg-white shadow-sm rounded p-2">
+                                    <span>There are 1200 products.</span>
+                                    <div class="sort">
+                                        <label>Sort by:</label>
+                                        <select class="form-control">
+                                            <option>Relevance</option>
+                                            <option>Name, A to Z</option>
+                                            <option>Name, Z to A</option>
+                                            <option>Price, low to high</option>
+                                            <option>Price, high to low</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--products-->
+                            <div class="col-xl-3 col-lg-4 col-md-3 col-sm-4 col-6 pb-3">
+                                <a href="single-product.html" class="w-100 h-100" style="text-decoration: none;">
+                                    <div class="py-3 px-2 product">
+                                        <div class="discount rounded-bottom shadow-sm">15<span>%</span></div>
+                                        <span>Tablets</span>
+                                        <h2>Tablet Bottle Mockup</h2>
+                                        <div class="pic rounded mb-1">
+                                            <div class="cover rounded" title="Black Mask"><i title="View"
+                                                    class="far fa-eye"></i></div>
+                                            <img class="w-100 rounded" src="images/products/product2.jpg"
+                                                alt="Black Mask">
+                                        </div>
+                                        <div class="d-flex pt-2 align-items-center justify-content-between">
+                                            <div class="prices">
+                                                <strong>130<small>EGP</small></strong>
+                                                <span>140<small>EGP</small></span>
+                                            </div>
+                                            <div class="cart border px-3 py-2 rounded" title="Add To Cart">
+                                                <i class="fas fa-cart-plus"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 my-3">
+                                <div
+                                    class="bg-white shadow-sm rounded p-2 d-flex align-items-center justify-content-between">
+                                    <nav aria-label="Page navigation example w-50 text-left">
+                                        <ul class="pagination justify-content-center m-0">
+                                            <li class="page-item disabled">
+                                                <a class="page-link" href="#"><i class="fas fa-angle-left"></i></a>
+                                            </li>
+                                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                            <li class="page-item">
+                                                <a class="page-link" href="#"><i class="fas fa-angle-right"></i></a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                    <form class="go-page w-50 text-right" action="">
+                                        <label>Show:</label>
+                                        <input class="form-control" type="number" placeholder="Page number">
+                                        <span><span class="current">1</span>/<span class="last">12</span></span>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="details pt-3">
+        <div class="m-auto" style="width: 90%;">
+            <div class="row py-2">
+                <article class="col-lg-3 col-md-6">
+                    <a class="navbar-brand pb-2" href="index.html"><img src="images/pharmacy (3).png"> pharma</a>
+                    <h4 style="font-weight: 400;">Who are us?</h4>
+                    <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur.
+                        I
+                        am text block. Click edit
+                        button to change this text. Lorem ipsum dolor sit amet, consectetur.
+                    </p>
+                </article>
+                <div class="col-lg-3 col-md-6">
+                    <h4>Services</h4>
+                    <p class="m-0"><i class="fas fa-angle-right"></i> Search For medicines</p>
+                    <p class="m-0"><i class="fas fa-angle-right"></i> Buy medicine</p>
+                    <p class="m-0"><i class="fas fa-angle-right"></i> Read medicine details</p>
+                    <p class="m-0"><i class="fas fa-angle-right"></i> Search for pharmacies</p>
+                    <p class="m-0"><i class="fas fa-angle-right"></i> Chating with pharmacies</p>
+                    <p class="m-0"><i class="fas fa-angle-right"></i> Alert services</p>
+                    <p class="m-0"><i class="fas fa-angle-right"></i> Scan your prescription</p>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h4>Pages</h4>
+                    <a href="index.html"><i class="fas fa-angle-right"></i> Home</a>
+                    <a href="marketplace.html"><i class="fas fa-angle-right"></i> Marketpalce</a>
+                    <a href="pharmacies.html"><i class="fas fa-angle-right"></i> Pharmacies</a>
+                    <a href="alert.html"><i class="fas fa-angle-right"></i> Alert</a>
+                    <a href="profile.html"><i class="fas fa-angle-right"></i> Profile</a>
+                    <a href="cart.html"><i class="fas fa-angle-right"></i> Cart</a>
+                    <a href="checkout.html"><i class="fas fa-angle-right"></i> Checkout</a>
+                </div>
+                <div class="col-lg-4 col-md-6 world">
+                    <h4>Contact Details</h4>
+                    <div class="row">
+                        <div class="lef">
+                            <i class="pt-2 fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="rig">
+                            <p class="pt-1">Manchester Road 123-78B, Silictown, Great Country</p>
+                        </div>
+                        <div class="lef">
+                            <i class="pt-2 fas fa-phone-alt"></i>
+                        </div>
+                        <div class="rig">
+                            <a class="py-1" href="">01140243176</a>
+                        </div>
+                        <div class="lef">
+                            <i class="pt-2 fas fa-envelope"></i>
+                        </div>
+                        <div class="rig">
+                            <a class="py-1" href="">hello@sitename.com</a>
+                        </div>
+                        <div class="col-12 icons pt-4">
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-google"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="py-2 text-center" style="background-color: #1a1a1a;">
+            <p style="color: #b0b0b0; margin-top: .3rem;">Copyright 2021. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

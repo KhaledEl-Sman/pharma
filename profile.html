@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pharma - Abdallah Mohamed</title>
+    <link rel="shortcut icon" type="images/clients/x-icon" href="images/pharmacy (3).png" />
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans+SC&family=Cairo&family=Merriweather&family=Poppins&family=Roboto&family=Staatliches&display=swap"
+        rel="stylesheet">
+    <!--bootstrap 4-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!--owlcarousel-->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <!--slick-->
+    <link rel="stylesheet" href="css/slick.css">
+    <!--wow-->
+    <link rel="stylesheet" href="css/animate.css">
+    <!--style-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-white fixed-top shadow-sm" style="z-index: 9;">
+        <div class="container-fluid m-auto py-2" style="width: 90%;">
+            <a class="navbar-brand" href="index.html"><img src="images/pharmacy (3).png"> pharma</a>
+            <button class="navbar-toggler first-button" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent20" aria-controls="navbarSupportedContent20" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <div class="animated-icon1"><span></span><span></span><span></span></div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent20">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="marketplace.html">Marketplace</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pharmacies.html">Pharmacies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="alert.html">Alert</a>
+                    </li>
+                    <li class="nav-item down-list">
+                        <a class="nav-link" style="cursor: default;">Pages <i class="down fa fa-caret-down"></i></a>
+                        <div class="pages bg-white rounded-bottom shadow">
+                            <ul style="list-style: none;">
+                                <li><a class="active" href="profile.html">profile</a></li>
+                                <hr>
+                                <li><a href="cart.html">cart</a></li>
+                                <hr>
+                                <li><a href="checkout.html">checkout</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item right-list">
+                        <a class="nav-link" style="cursor: default;">Pages <i style="margin-left: 5px;"
+                                class="right fa fa-caret-right"></i></a>
+                        <div class="pages2 bg-white rounded shadow">
+                            <ul style="list-style: none;">
+                                <li><a class="active" href="profile.html">profile</a></li>
+                                <hr>
+                                <li><a href="alert.html">alert</a></li>
+                                <hr>
+                                <li><a href="checkout.html">checkout</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item cart d-flex">
+                        <a href="cart.html"><img style="width: 25px;" src="images/cart.png"><small class="qty"
+                                style="position: relative;left: 5px;">3</small></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link">
+                            <div class="user-menu px-2 py-1" title="My Profile">
+                                <img class="rounded-circle border img-fluid" style="width: 1.65rem;"
+                                    src="images/clients/Me.jpg"><span class="ml-1">Khaled</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item mt-1">
+                        <a class="logout" title="Logout" style="cursor: pointer;"><i
+                                class="fas fa-sign-out-alt"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="up">
+        <a><i class="fa fa-angle-up"></i></a>
+    </div>
+
+    <div style="height: 75px;width: 100%;"></div>
+
+    <section class="profile py-5">
+        <div class="m-auto" style="width: 90%;">
+            <div class="row border py-5 rounded">
+                <div class="left col-md-4 offset-md-0 col-6 offset-3 text-center py-3">
+                    <div class="pic">
+                        <img class="rounded-circle w-75" src="images/clients/client-7.png">
+                        <div class="change">
+                            <i class="fas fa-camera"></i> Change
+                        </div>
+                    </div>
+                    <h4 class="pt-3">Abdallah Mohamed</h4>
+                    <p class="text-muted">Abdallah.Mohamed@gmail.com</p>
+                </div>
+                <div class="col-md-8 offset-md-0 col-12 py-3">
+                    <form action="">
+                        <div class="form-group">
+                            <span>Profile Settings</span>
+                        </div>
+                        <div class="form-group">
+                            <div class="d-flex">
+                                <div style="width: 15%;">
+                                    <label class="pt-1">Name</label>
+                                </div>
+                                <div class="d-flex ml-1" style="width: 85%;">
+                                    <div class="w-50 mr-1">
+                                        <p class="form-control bg-light border">Abdallah</p>
+                                    </div>
+                                    <div class="w-50 ml-1">
+                                        <p class="form-control bg-light border">Mohamed</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group d-flex align-items-center">
+                            <label style="width: 15%;">E-mail</label>
+                            <p class="form-control bg-light border" style="width: 85%;">Abdallah.Mohamed@gmail.com</p>
+                        </div>
+                        <div class="form-group d-flex align-items-center">
+                            <label style="width: 15%;">Password</label>
+                            <input type="text" name="" class="form-control" placeholder="Password" style="width: 85%;"
+                                value="Abdo123">
+                        </div>
+                        <div class="form-group d-flex align-items-center">
+                            <label style="width: 15%;">Phone Number</label>
+                            <input type="number" name="" class="form-control" style="width: 85%;" placeholder="Phone"
+                                value="01000615064">
+                        </div>
+                        <div class="d-flex">
+                            <div style="width: 15%;">
+                                <label class="pt-1">Address</label>
+                            </div>
+                            <div class="d-flex ml-1" style="width: 85%;">
+                                <div class="w-50 mr-1">
+                                    <div class="form-group">
+                                        <select class="form-control" name="">
+                                            <option disabled>City</option>
+                                            <option>Cairo</option>
+                                            <option>Alex</option>
+                                            <option selected>Giza</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="w-50 ml-1">
+                                    <div class="form-group">
+                                        <select class="form-control" name="">
+                                            <option disabled>Area</option>
+                                            <option selected>Dokki</option>
+                                            <option>Maadi</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="w-50 mr-1">
+                                <div class="form-group d-flex align-items-center">
+                                    <label style="width: 20%;">Street</label>
+                                    <input style="width: 80%;" type="text" name="" class="form-control"
+                                        placeholder="Street" value="4">
+                                </div>
+                            </div>
+                            <div class="w-50 ml-1">
+                                <div class="form-group d-flex align-items-center">
+                                    <label style="width: 20%;">House</label>
+                                    <input type="number" name="" class="form-control" style="width: 80%;"
+                                        placeholder="House" value="17">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="w-50 mr-1">
+                                <div class="form-group d-flex align-items-center">
+                                    <label style="width: 20%;">Floor</label>
+                                    <input style="width: 80%;" type="number" name="" class="form-control"
+                                        placeholder="Floor" value="3">
+                                </div>
+                            </div>
+                            <div class="w-50 ml-1">
+                                <div class="form-group d-flex align-items-center">
+                                    <label style="width: 20%;">Flat</label>
+                                    <input style="width: 80%;" type="number" name="" class="form-control"
+                                        placeholder="Flat" value="5">
+                                </div>
+                            </div>
+                        </div>
+                        <iframe class="w-100" style="height: 300px;" frameborder="0" scrolling="no" marginheight="0"
+                            marginwidth="0"
+                            src="https://maps.google.com/maps?q=29.883779,31.306377&hl=eg&z=15&amp;output=embed">
+                        </iframe>
+                        <div class="d-flex pt-3">
+                            <div class="w-50 mr-1">
+                                <input type="button" style="font-weight: 400;"
+                                    class="btn btn-lg btn-warning form-control" value="Get Current Location">
+                            </div>
+                            <div class="w-50 ml-1">
+                                <input type="submit" style="font-weight: 400;" class="btn btn-lg btn-info form-control"
+                                    value="Confirm Changes">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-8 offset-lg-2  col-md-10 offset-md-1 col-12 mt-5 py-3 border-top">
+                    <span>Previous Orders</span>
+                    <table class="table mt-3">
+                        <thead>
+                            <tr>
+                                <th>Date&Time</th>
+                                <th>Pharmacy</th>
+                                <th>Product</th>
+                                <th>Quantity</th>
+                                <th>Total Price</th>
+                                <th>Payment Method</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2021-01-10 02:20</td>
+                                <td>Ezz Eldin</td>
+                                <td>Black Mask</td>
+                                <td>2</td>
+                                <td>5$</td>
+                                <td>Cash</td>
+                            </tr>
+                            <tr>
+                                <td>2021-01-10 02:20</td>
+                                <td>Ezz Eldin</td>
+                                <td>Dettol Spray</td>
+                                <td>1</td>
+                                <td>25$</td>
+                                <td>Cash</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!--
+                    <div class="rounded border p-2 text-center text-white bg-danger">-- You don’t have any orders till
+                        now --</div>
+                    -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="details pt-3">
+        <div class="m-auto" style="width: 90%;">
+            <div class="row py-2">
+                <article class="col-lg-3 col-md-6">
+                    <a class="navbar-brand pb-2" href="index.html"><img src="images/pharmacy (3).png"> pharma</a>
+                    <h4 style="font-weight: 400;">Who are us?</h4>
+                    <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur.
+                        I
+                        am text block. Click edit
+                        button to change this text. Lorem ipsum dolor sit amet, consectetur.
+                    </p>
+                </article>
+                <div class="col-lg-3 col-md-6">
+                    <h4>Services</h4>
+                    <p class="m-0"><i class="fas fa-angle-right"></i> Search For medicines</p>
+                    <p class="m-0"><i class="fas fa-angle-right"></i> Buy medicine</p>
+                    <p class="m-0"><i class="fas fa-angle-right"></i> Read medicine details</p>
+                    <p class="m-0"><i class="fas fa-angle-right"></i> Search for pharmacies</p>
+                    <p class="m-0"><i class="fas fa-angle-right"></i> Chating with pharmacies</p>
+                    <p class="m-0"><i class="fas fa-angle-right"></i> Alert services</p>
+                    <p class="m-0"><i class="fas fa-angle-right"></i> Scan your prescription</p>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h4>Pages</h4>
+                    <a href="index.html"><i class="fas fa-angle-right"></i> Home</a>
+                    <a href="marketplace.html"><i class="fas fa-angle-right"></i> Marketpalce</a>
+                    <a href="pharmacies.html"><i class="fas fa-angle-right"></i> Pharmacies</a>
+                    <a href="alert.html"><i class="fas fa-angle-right"></i> Alert</a>
+                    <a href="profile.html"><i class="fas fa-angle-right"></i> Profile</a>
+                    <a href="cart.html"><i class="fas fa-angle-right"></i> Cart</a>
+                    <a href="checkout.html"><i class="fas fa-angle-right"></i> Checkout</a>
+                </div>
+                <div class="col-lg-4 col-md-6 world">
+                    <h4>Contact Details</h4>
+                    <div class="row">
+                        <div class="lef">
+                            <i class="pt-2 fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="rig">
+                            <p class="pt-1">Manchester Road 123-78B, Silictown, Great Country</p>
+                        </div>
+                        <div class="lef">
+                            <i class="pt-2 fas fa-phone-alt"></i>
+                        </div>
+                        <div class="rig">
+                            <a class="py-1" href="">01140243176</a>
+                        </div>
+                        <div class="lef">
+                            <i class="pt-2 fas fa-envelope"></i>
+                        </div>
+                        <div class="rig">
+                            <a class="py-1" href="">hello@sitename.com</a>
+                        </div>
+                        <div class="col-12 icons pt-4">
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-google"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="py-2 text-center" style="background-color: #1a1a1a;">
+            <p style="color: #b0b0b0; margin-top: .3rem;">Copyright 2021. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

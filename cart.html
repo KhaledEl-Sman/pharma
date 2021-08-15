@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pharma - Cart</title>
+    <link rel="shortcut icon" type="images/clients/x-icon" href="images/pharmacy (3).png" />
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans+SC&family=Cairo&family=Merriweather&family=Poppins&family=Roboto&family=Staatliches&display=swap"
+        rel="stylesheet">
+    <!--bootstrap 4-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!--owlcarousel-->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <!--slick-->
+    <link rel="stylesheet" href="css/slick.css">
+    <!--wow-->
+    <link rel="stylesheet" href="css/animate.css">
+    <!--style-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-white fixed-top shadow-sm" style="z-index: 9;">
+        <div class="container-fluid m-auto py-2" style="width: 90%;">
+            <a class="navbar-brand" href="index.html"><img src="images/pharmacy (3).png"> pharma</a>
+            <button class="navbar-toggler first-button" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent20" aria-controls="navbarSupportedContent20" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <div class="animated-icon1"><span></span><span></span><span></span></div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent20">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="marketplace.html">Marketplace</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pharmacies.html">Pharmacies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="alert.html">Alert</a>
+                    </li>
+                    <li class="nav-item down-list">
+                        <a class="nav-link" style="cursor: default;">Pages <i class="down fa fa-caret-down"></i></a>
+                        <div class="pages bg-white rounded-bottom shadow">
+                            <ul style="list-style: none;">
+                                <li><a href="profile.html">profile</a></li>
+                                <hr>
+                                <li><a class="active" href="cart.html">cart</a></li>
+                                <hr>
+                                <li><a href="checkout.html">checkout</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item right-list">
+                        <a class="nav-link" style="cursor: default;">Pages <i style="margin-left: 5px;"
+                                class="right fa fa-caret-right"></i></a>
+                        <div class="pages2 bg-white rounded shadow">
+                            <ul style="list-style: none;">
+                                <li><a href="profile.html">profile</a></li>
+                                <hr>
+                                <li><a href="alert.html">alert</a></li>
+                                <hr>
+                                <li><a class="active" href="">checkout</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item cart d-flex">
+                        <a href="cart.html"><img style="width: 25px;" src="images/cart.png"><small class="qty"
+                                style="position: relative;left: 5px;">3</small></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="profile.html" class="nav-link">
+                            <div class="user-menu px-2 py-1" title="My Profile">
+                                <img class="rounded-circle border img-fluid" style="width: 1.65rem;"
+                                    src="images/clients/Me.jpg"><span class="ml-1">Khaled</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item mt-1">
+                        <a class="logout" title="Logout" style="cursor: pointer;"><i
+                                class="fas fa-sign-out-alt"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="up">
+        <a><i class="fa fa-angle-up"></i></a>
+    </div>
+
+    <div style="height: 75px;width: 100%;"></div>
+
+    <header class="cart-header">
+        <div class="curtain">
+            <strong class="text-white wow bounceInUp">My <span
+                    style="font-family: 'Cairo', sans-serif;color: #ffc107;">Cart</span></strong>
+        </div>
+    </header>
+
+    <section class="my-cart py-5">
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th>Product name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <form class="cancel" action="">
+                            <i class="fa fa-times"></i>
+                        </form>
+                    </td>
+                    <td><img src="images/products/product1.jpg"></td>
+                    <td>Black Mask</td>
+                    <td>$2.50</td>
+                    <td>
+                        <form class="m-auto w-75" action="">
+                            <input type="number" name="" class="form-control text-center" value="2">
+                            <input type="submit" hidden>
+                        </form>
+                    </td>
+                    <td>$5</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cancel"><i class="fa fa-times"></i></div>
+                    </td>
+                    <td><img src="images/products/2.jpg"></td>
+                    <td>Dettol Hand Wash</td>
+                    <td>$4</td>
+                    <td>
+                        <form class="m-auto w-75" action="">
+                            <input type="number" name="" class="form-control text-center" value="1">
+                            <input type="submit" hidden>
+                        </form>
+                    </td>
+                    <td>$4</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="total-cost py-3">
+        <div style="width: 93%; margin: auto;">
+            <div class="d-flex align-items-center">
+                <div class="w-50 rounded text-center mr-1">
+                    <img class="rounded" src="images/total-cost.jpg">
+                </div>
+                <div class="w-50 ml-1">
+                    <div class="left border rounded">
+                        <h5 class="mb-3">Cart Total</h5>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>Subtotal</td>
+                                    <td class="price">9.00$</td>
+                                </tr>
+                                <tr>
+                                    <td>Delivery</td>
+                                    <td class="price">1.00$</td>
+                                </tr>
+                                <tr>
+                                    <td>Discount</td>
+                                    <td class="price">0.00$</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight: 600;">TOTAL</td>
+                                    <td class="text-right" style="font-weight: 600;">10.00$</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <form action="">
+                            <div class="form-group text-center mt-3 px-2">
+                                <input style="font-family: 'Cairo', sans-serif;" type="submit"
+                                    class="btn btn-lg btn-warning px-4 py-2 w-100" value="Proceed to Checkout">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="details pt-3">
+        <div class="m-auto" style="width: 90%;">
+            <div class="row py-2">
+                <article class="col-lg-3 col-md-6">
+                    <a class="navbar-brand pb-2" href="index.html"><img src="images/pharmacy (3).png"> pharma</a>
+                    <h4 style="font-weight: 400;">Who are us?</h4>
+                    <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur.
+                        I
+                        am text block. Click edit
+                        button to change this text. Lorem ipsum dolor sit amet, consectetur.
+                    </p>
+                </article>
+                <div class="col-lg-3 col-md-6">
+                    <h4>Services</h4>
+                    <p class="m-0"><i class="fas fa-angle-right"></i> Search For medicines</p>
+                    <p class="m-0"><i class="fas fa-angle-right"></i> Buy medicine</p>
+                    <p class="m-0"><i class="fas fa-angle-right"></i> Read medicine details</p>
+                    <p class="m-0"><i class="fas fa-angle-right"></i> Search for pharmacies</p>
+                    <p class="m-0"><i class="fas fa-angle-right"></i> Chating with pharmacies</p>
+                    <p class="m-0"><i class="fas fa-angle-right"></i> Alert services</p>
+                    <p class="m-0"><i class="fas fa-angle-right"></i> Scan your prescription</p>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h4>Pages</h4>
+                    <a href="index.html"><i class="fas fa-angle-right"></i> Home</a>
+                    <a href="marketplace.html"><i class="fas fa-angle-right"></i> Marketpalce</a>
+                    <a href="pharmacies.html"><i class="fas fa-angle-right"></i> Pharmacies</a>
+                    <a href="alert.html"><i class="fas fa-angle-right"></i> Alert</a>
+                    <a href="profile.html"><i class="fas fa-angle-right"></i> Profile</a>
+                    <a href="cart.html"><i class="fas fa-angle-right"></i> Cart</a>
+                    <a href="checkout.html"><i class="fas fa-angle-right"></i> Checkout</a>
+                </div>
+                <div class="col-lg-4 col-md-6 world">
+                    <h4>Contact Details</h4>
+                    <div class="row">
+                        <div class="lef">
+                            <i class="pt-2 fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="rig">
+                            <p class="pt-1">Manchester Road 123-78B, Silictown, Great Country</p>
+                        </div>
+                        <div class="lef">
+                            <i class="pt-2 fas fa-phone-alt"></i>
+                        </div>
+                        <div class="rig">
+                            <a class="py-1" href="">01140243176</a>
+                        </div>
+                        <div class="lef">
+                            <i class="pt-2 fas fa-envelope"></i>
+                        </div>
+                        <div class="rig">
+                            <a class="py-1" href="">hello@sitename.com</a>
+                        </div>
+                        <div class="col-12 icons pt-4">
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-google"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="py-2 text-center" style="background-color: #1a1a1a;">
+            <p style="color: #b0b0b0; margin-top: .3rem;">Copyright 2021. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
